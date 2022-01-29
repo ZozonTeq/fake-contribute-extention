@@ -1,0 +1,12 @@
+{
+    "name": "Fake Contribute!",
+    "version": "1",
+    "manifest_version": 2,
+    "description": "Display Fake Contribute",
+    "content_scripts": [{
+      "matches": ["https://github.com/*"],
+      "js": [
+        "content.js"
+      ]
+    }]
+  }
